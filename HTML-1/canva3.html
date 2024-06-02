@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+</style>
+<body>
+
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid mediumseagreen;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(100,100,85,0,2*Math.PI);
+ctx.stroke();
+</script> 
+</body>
+</html>
+<!-- 
+The arc() method is used to create an arc/portion of a circle.
+It takes several parameters:
+x: The x-coordinate of the center of the arc.
+y: The y-coordinate of the center of the arc.
+radius: The radius of the arc.
+startAngle: The angle (in radians) at which the arc starts.
+endAngle: The angle (in radians) at which the arc ends.
+counterclockwise (optional): A Boolean value specifying whether the drawing should be counterclockwise or clockwise. This parameter is optional and defaults to false.
+In this code, arc(100, 100, 85, 0, 2*Math.PI) draws a complete circle with:
+Center at (100, 100) pixels.
+Radius of 85 pixels.
+Starting angle of 0 radians (which corresponds to the 3 o'clock position).
+Ending angle of 2*Math.PI radians (which corresponds to a full circle).
+Finally, stroke() is called to actually draw the arc defined by the arc() method. -->

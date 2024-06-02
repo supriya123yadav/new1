@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.hello{
+    background-color:rgb(19, 57, 95);
+    border-radius: 20px;
+    cursor: pointer;
+    color:aliceblue;
+}
+    </style>
+
+    <button class="hello">subscribe</button>
+</body>
+</html>
+---------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.hello{
+    background-color:rgb(244, 7, 7);
+    border-radius: 20px;
+    cursor: pointer;
+    color:aliceblue;
+    align-items:left;
+    border-color: rgb(6, 6, 254);
+
+}
+    </style>
+
+    <button class="hello">subscribe</button>
+    <button class="hello">join</button>
+    <button class="hello">sign in </button>
+</body>
+</html>
+--------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.hello{
+    background-color:rgb(244, 7, 7);
+    border-radius: 20px;
+    cursor: pointer;
+    color:aliceblue;
+    align-items:left;
+    border-color: rgb(6, 6, 254);
+     border-style: double;
+     border width: 1px;
+
+}
+    </style>
+
+    <button class="hello">subscribe</button>
+    <button class="hello">join</button>
+    <button class="hello">sign in </button>
+</body>
+</html>

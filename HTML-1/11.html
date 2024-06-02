@@ -1,0 +1,53 @@
+<!-- HTML5 features include native audio and video support without the need for Flash.
+
+The HTML5 <audio> and <video> tags make it simple to add media to a website. You need to set src attribute to identify the media source and include a controls attribute so the user can play and pause the media.
+    
+The current HTML5 draft specification does not specify which video formats browsers should support in the video tag. But most commonly used video formats are −
+
+Ogg − Ogg files with Thedora video codec and Vorbis audio codec.
+
+mpeg4 − MPEG4 files with H.264 video codec and AAC audio codec.
+
+
+
+To embed video in HTML, we use the <video> tag. It contains one or more video sources at a time using <source> tag. It supports MP4, WebM, and Ogg in all modern browsers. Only Ogg video format doesn’t support in Safari browser. 
+
+Syntax
+
+<video>
+    <source src="file_name" type="video_file_type">
+</video>
+
+
+Attributes of <video> tag
+
+Attribute	Value	Description
+autoplay	autoplay	When the page is loaded. It specifies to play video as soon as possible. 
+controls	controls	It displays video control such as play, pause, and stop.
+loop	loop	It will start the video again when it is finished. 
+muted	muted	When the page is loaded video will be automatically muted. 
+poster	URL	It specifies an image will be shown until video play. 
+preload	auto
+metadata
+none	It specifies how the author thinks the video will be loaded when the page is ready. 
+src	URL	It specifies the URL of the audio file. 
+width	pixels	It specifies the width of the video area. The default value of width is ‘auto’.
+height	pixels	It specifies the height of the video area. The default value of height is ‘auto’.
+
+
+-->
+
+
+    <!DOCTYPE HTML>
+
+<html>
+   <body>
+      
+      <video  width = "300" height = "200" controls autoplay>
+         <!-- <source src = "/html5/foo.ogg" type ="video/ogg" /> -->
+         <source src = "/3.mp4" type = "video/mp4" />
+         Your browser does not support the <video> element.
+      </video>
+      
+   </body>
+</html>

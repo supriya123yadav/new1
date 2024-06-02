@@ -1,0 +1,131 @@
+<!-- <!-- <a href="https://www.amazon.in/s?k=nike+black+shoes+for+men&crid=2RXDT8N2HH07Z&sprefix=nike+black+%2Caps%2C280&ref=nb_sb_ss_ts-doa-p_1_11">link to amazon </a>
+<p>nike black running shoes</p>
+<button>add to cart</button>
+<button>buy</button> -->
+<!-- <style>
+.subscrobe button{
+    background-color:rgb(76, 221, 81);
+    color: aliceblue;
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+}</style>
+<button class="subscrobe button">subscribe</button>
+<button class="subscrobe button">join</button> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.hello{
+    background-color:rgb(244, 7, 7);
+    border-radius: 20px;
+    cursor: pointer;
+    color:aliceblue;
+    align-items:left;
+    border-color: rgb(6, 6, 254);
+     border-style: double;
+     border width: 1px;
+
+}
+    </style>
+
+    <button class="hello">subscribe</button>
+    <button class="hello">join</button>
+    <button class="hello">sign in </button>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .subscribe {
+            background-color: rgb(244, 7, 7);
+            border-radius: 400px;
+            cursor: pointer;
+            color: aliceblue;
+            align-items: left;
+            border-color: rgb(6, 6, 254);
+            border-style: double;
+            border width: 200px;
+            height: 50px;
+            width: 100px;
+            transition : background-color is,
+            color:1s:
+
+            
+
+        }
+        .subscribe:hover{
+            background-color: aqua;
+            color:black;
+        }
+    </style>
+    <button class="subscribe">click</button>
+    <button class="subscribe">finish</button>
+
+</body>
+
+</html> -->
+
+-------------------------------------------------------------------
+padding and shadow
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            background-color: aqua;
+            color: black;
+            border: crimson;
+            height: 40px;
+            width: 100px;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 15px;
+            padding-top: 6px;
+
+        transition: background-color 1s,color 1s;
+    /* box-shadow: 10px 10px 1px rgba(0,0,0,0.5)} */
+        }
+            .box:hover{
+                /* background-color: blueviolet; */
+                opacity: 0.8;
+                box-shadow: 10px 10px 1px rgba(0,0,0,0.5)}
+
+
+            
+            .box:active{
+                /* background-color: blue; */
+                opacity: 0.3;
+            }
+    </style>
+    <button class="box">submit</button>
+</body>
+</html> -->

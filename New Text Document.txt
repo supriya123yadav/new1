@@ -1,0 +1,189 @@
+md=medium screen 
+p=padding
+m=margin
+lg=large screen
+mt=margin top
+mb=margin bottom
+sm=small screen
+bg=brackground
+pt=padding top
+pd=padding bottom
+java:
+1993-mosaic
+html is case sensitive because for <p> and <P> both are same in html 
+but java script is not a case sensitive because for <p> and <P> are different in java script
+
+command==
+html is <--!                !-->
+java  is // //  it is single line command 
+       /*    */  multi line command 
+by using css and html we can easily design website 
+by using oops concept the code is short and it is good in webdesign .
+
+DATA TYPES:
+1) PRIMITIVE DT
+2)COMPOSITE DT
+3)TRIVIAL DT
+ 1)   VALUES---INT,FLOAT
+      STRING---TEXT
+      BOOLEAN---TRUE OR FALSE
+2)   OBJECT,ARRAY,FUNCTION
+3)   NULL,UNDEFINED 
+
+console.log()-----is defined for back ground area mostly we use in debug purpose 
+document.write() ----is for desk top view 
+string:-
+x="10"
+y="40"
+console.log(x+y)
+ans:1040
+x=10
+y=20
+console.log(x+y)
+30
+console.log'$'+(20+30)
+$50
+console.log("hello"+2)
+hello2
+
+
+JS OPERATORS:-
+ARITHMETIC OP
+ASSIGNMENT 
+COMPARISION
+STRING
+LOGICAL
+BIT WISE
+TERNARY
+
+
+1) arthimetic op
++
+-
+*
+/
+%
+//
+2)assignment op
+=
++=
+-=
+/=
+%=
+**
+3)comparission
+!=
+==
+>
+<
+>=
+<=
+4) logical op
+&&  and
+   or
+! not
+5) bitwise op
+bitwise and &
+bitwise or 
+bitwise not ~
+bitwise nor
+bitwis= leftshift  <<
+bitwise right shift >>
+   and:--
+0  0  0
+1  0  0
+1  1  1
+0  1  0
+   or:---
+0  0  0
+1  0  1
+1  1  1
+0  1  1
+functions:---
+  3 types:
+1) regular
+2) 
+3)
+
+
+
+--------------------------------------------------------------------------------------
+git config --global user.name "c.repositary name"
+and press enter
+git config --global  user.email "email id "
+
+
+npx= node package execution
+to run one time or temporary
+
+
+npm= node package manager
+
+code:-
+
+npm install -g creat-react-app 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+ 
+

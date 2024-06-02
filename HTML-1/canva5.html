@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+</style>
+<body>
+
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid mediumseagreen;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+var grd = ctx.createLinearGradient(70,70,180,180);
+grd.addColorStop(0,"black");
+grd.addColorStop(1,"red");
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0,0,200,200);
+
+</script> 
+
+</body>
+</html>
+
+<!-- 
+<script>
+    var c = document.getElementById("myCanvas"); // Retrieves the canvas element by its ID "myCanvas" and stores it in the variable 'c'
+    var ctx = c.getContext("2d"); // Retrieves the 2D drawing context of the canvas, which allows us to draw on it
+    
+    // Create a linear gradient
+    var grd = ctx.createLinearGradient(70, 70, 180, 180);
+    // Parameters for createLinearGradient():
+    // - (x0, y0): The starting point of the gradient
+    // - (x1, y1): The ending point of the gradient
+    
+    // Add color stops to the gradient
+    grd.addColorStop(0, "black"); // Specifies that at the starting point (0), the color should be black
+    grd.addColorStop(1, "red");   // Specifies that at the ending point (1), the color should be red
+    // The gradient will transition smoothly from black to red between the starting and ending points
+    
+    // Fill with the created gradient
+    ctx.fillStyle = grd; // Sets the fill style of the canvas to the gradient we created
+    ctx.fillRect(0, 0, 200, 200); // Draws a filled rectangle on the canvas
+    // Parameters for fillRect():
+    // - (x, y): The coordinates of the top-left corner of the rectangle
+    // - (width, height): The width and height of the rectangle
+    </script> -->
+    

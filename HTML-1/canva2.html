@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+</style>
+
+<body>
+    <canvas id="myCanvas" width="200" height="200" style="border:1px solid slateblue;">
+    </canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas"); // Retrieves the canvas element by its ID "myCanvas" and stores it in the variable 'c'
+        var ctx = c.getContext("2d"); // Retrieves the 2D drawing context of the canvas, which allows us to draw on it
+
+        // Drawing the first diagonal line from top-left to bottom-right
+        ctx.moveTo(0, 0); // Moves the starting point of the path to coordinates (0, 0) which is the top-left corner of the canvas
+        ctx.lineTo(200, 200); // Creates a line from the current point (0, 0) to the point (200, 200) which is the bottom-right corner of the canvas
+        ctx.stroke(); // Draws the path defined by the moveTo() and lineTo() methods
+
+        // Drawing the second diagonal line from top-right to bottom-left
+        ctx.moveTo(0, 200); // Moves the starting point of the path to coordinates (0, 200) which is the top-right corner of the canvas
+        ctx.lineTo(200, 0); // Creates a line from the current point (0, 200) to the point (200, 0) which is the bottom-left corner of the canvas
+        ctx.stroke(); // Draws the path defined by the moveTo() and lineTo() methods
+    </script>
+
+</body>
+
+</html>

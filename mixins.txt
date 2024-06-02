@@ -1,0 +1,8 @@
+get and set method are used to change the private 
+mixins
+object.assign(targect ojb,current obj) for one obj tareget
+
+object.assign(class name.prototype,obj)class to one obj
+
+object.assign(targect ojb,current obj,current obj)  for multiple objs
+

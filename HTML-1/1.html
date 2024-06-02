@@ -1,0 +1,30 @@
+<!-- Basically, to handle events in HTML, you just need to add the function in the HTML tag which is going to be executed in JavaScript when any event in HTML is fired or triggered. There are many event attributes in HTML like keyboard event, mouse event, form event, etc. -->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+   <center>
+      <h1 style="color: blue;">
+         Welcome to Tutorials Point
+      </h1>
+      <button onclick="OnClickFunction()">
+         Click me
+      </button>
+      <p id="demo"></p>
+      <br /><br />
+      <p onmouseover="MouseHover()">
+         Hover Mouse Here
+      </p>
+   </center>
+   <script>
+      function OnClickFunction() {
+         document.getElementById("demo")
+            .innerHTML = "Button was Clicked !";
+      }
+      function MouseHover() {
+         alert("Mouse Hovered over me");
+      }
+   </script>
+</body>
+</html>
